@@ -23,11 +23,15 @@
           ¡Estás a un paso de convertirte en un gran bartender! ¿Estás listo
           para comenzar?
         </p>
-        <button type="button" class="btn btn-primary mt-4 mb-2" @click="scrollToInfo">
+        <button
+          type="button"
+          class="btn btn-primary mt-4 mb-2"
+          @click="scrollToInfo"
+        >
           Saber mas
         </button>
       </div>
-      <div class="col-12 col-sm-6 order-sm-1 ">
+      <div class="col-12 col-sm-6 order-sm-1">
         <img
           src="https://www.liquor.com/thmb/9VTX3zAaYe4cA8CAHO9Cz8s2nrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__01__10072454__gimlet-720x720-recipe-a0d317f2ce7b4818a0fdbd2bbaaaf2c9.jpg"
           alt=""
@@ -35,7 +39,6 @@
           id="Image"
         />
       </div>
-      
     </div>
   </div>
   <!-- //!CTA -->
@@ -44,7 +47,9 @@
       <div class="col">
         <div class="bg-secondary text-white mb-5 py-4 card">
           <div class="card-body">
-            Conviértete en un profesional y entra en nuestra bolsa de trabajo.
+            ¿Estás listo para dar el siguiente paso?
+            <br />
+            Conviértete en un profesional y entra en nuestra bolsa de trabajo .
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="nosotros">
-    <div class="col-md-10 mx-auto">
+    <div class="col-md-10 mx-auto mt-5">
       <h1>Bienvenidos al Gimlet Cocktail Club</h1>
       <hr />
       <p>
