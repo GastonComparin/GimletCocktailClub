@@ -1,23 +1,24 @@
 <template>
   <!-- //!Jumbotron -->
   <div class="container my-5">
-    <div class="row">
-      <div class="col-md-7">
-        <img
-          src="https://www.liquor.com/thmb/9VTX3zAaYe4cA8CAHO9Cz8s2nrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__01__10072454__gimlet-720x720-recipe-a0d317f2ce7b4818a0fdbd2bbaaaf2c9.jpg"
-          alt=""
-        />
-      </div>
-      <div class="col-md-5">
-        <h1>Gimlet Cocktail Club</h1>
-        <p>
-          El curso de coctelería mas completo, dictado por profesionales de la
-          industria. Aprenderás desde las bases hasta las tecnicas mas complejas
-        </p>
-        <button type="button" class="btn btn-primary">Saber mas</button>
-      </div>
+  <div class="row">
+    <div class="col-12 col-sm-6">
+      <img
+        src="https://www.liquor.com/thmb/9VTX3zAaYe4cA8CAHO9Cz8s2nrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__01__10072454__gimlet-720x720-recipe-a0d317f2ce7b4818a0fdbd2bbaaaf2c9.jpg"
+        alt=""
+        class="img-fluid"
+      />
+    </div>
+    <div class="col-12 col-sm-6">
+      <h1>Gimlet Cocktail Club</h1>
+      <p>
+        El curso de coctelería mas completo, dictado por profesionales de la
+        industria. Aprenderás desde las bases hasta las técnicas mas complejas
+      </p>
+      <button type="button" class="btn btn-primary">Saber mas</button>
     </div>
   </div>
+</div>
   <!-- //!CTA -->
   <div class="container">
     <div class="row">
