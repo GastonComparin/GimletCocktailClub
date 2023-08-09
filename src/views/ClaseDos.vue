@@ -1,6 +1,6 @@
 <template>
-  <div class="ClaseUno">
-    <h1>Clase N°1 - Introducción a la cocteleria</h1>
+  <div class="ClaseDos">
+    <h1>Clase N°2 - Elaboraciones y Producciones</h1>
     <h5>
       Aca se podria colocar un poco de informacion sobre lo que se va a ver en
       la clase
@@ -27,10 +27,13 @@
     <div class="row">
       <div class="col-md-12">
         <div class="d-flex justify-content-around">
+          <router-link to="/clases/1" class="btn btn-primary btn-md mt-3"
+            >Clase anterior</router-link
+          >
           <router-link to="/clases" class="btn btn-primary btn-md mt-3"
             >Ir al inicio</router-link
           >
-          <router-link to="/clases/2" class="btn btn-primary btn-md mt-3"
+          <router-link to="/clases/3" class="btn btn-primary btn-md mt-3"
             >Siguiente clase</router-link
           >
         </div>

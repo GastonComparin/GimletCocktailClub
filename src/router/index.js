@@ -4,6 +4,8 @@ import programa from "../views/ProgramaView.vue";
 import nosotros from "../views/NosotrosView.vue";
 import ubicacion from "../views/UbicacionView.vue";
 import ClaseUno from "../views/ClaseUno.vue";
+import ClaseDos from "../views/ClaseDos.vue";
+import ClaseTres from "../views/ClaseTres.vue";
 
 const routes = [
   {
@@ -30,6 +32,16 @@ const routes = [
     path: "/clases/1",
     name: "ClaseUno",
     component: ClaseUno,
+  },
+  {
+    path: "/clases/2",
+    name: "ClaseDos",
+    component: ClaseDos,
+  },
+  {
+    path: "/clases/3",
+    name: "ClaseTres",
+    component: ClaseTres,
   },
 ];
 
