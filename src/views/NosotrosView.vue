@@ -1,14 +1,14 @@
 <template>
   <div class="nosotros">
     <div class="col-md-10 mx-auto">
-      <!-- <div class="d-flex justify-content-center"> -->
       <h1>Bienvenidos al Gimlet Cocktail Club</h1>
+      <hr />
       <p>
-        En el Gimlet Cocktail Club, somos unos apasionados bartenders
-        dedicados a compartir nuestro amor y conocimiento por el arte de la
-        coctelería. Nuestra misión es llevar a personas de todas las habilidades
-        y niveles de experiencia en un emocionante viaje a través del mundo de
-        los cócteles.
+        En el Gimlet Cocktail Club, somos unos apasionados bartenders dedicados
+        a compartir nuestro amor y conocimiento por el arte de la coctelería.
+        Nuestra misión es llevar a personas de todas las habilidades y niveles
+        de experiencia en un emocionante viaje a través del mundo de los
+        cócteles.
       </p>
 
       <p>
@@ -55,7 +55,66 @@
 
       <p><em>¡Salud y cócteles extraordinarios!</em></p>
 
-      <p>El Equipo del Gimlet Cocktail Club</p>
+      <p>Gimlet Cocktail Club</p>
     </div>
   </div>
+  <hr />
+  <h4>Galeria de fotos</h4>
+  <div id="carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://picsum.photos/id/237/700/500"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://picsum.photos/id/238/700/500"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://picsum.photos/id/239/700/500"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </template>
+<style>
+#carousel {
+  max-width: 700px; /* Ajusta el tamaño máximo del carrusel */
+  margin: 0 auto; /* Centra el carrusel en la página */
+}
+
+.carousel-inner {
+  max-height: 500px; /* Ajusta el alto máximo del carrusel */
+}
+
+.carousel-item img {
+  max-height: 500px; /* Ajusta el alto máximo de las imágenes */
+}
+</style>

@@ -2,30 +2,47 @@
   <!-- //!Jumbotron -->
   <div class="container my-5">
     <div class="row">
-      <div class="col-12 col-sm-6">
-        <img
-          src="https://www.liquor.com/thmb/9VTX3zAaYe4cA8CAHO9Cz8s2nrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__01__10072454__gimlet-720x720-recipe-a0d317f2ce7b4818a0fdbd2bbaaaf2c9.jpg"
-          alt=""
-          class="img-fluid"
-        />
-      </div>
-      <div class="col-12 col-sm-6">
-        <h1>Gimlet Cocktail Club</h1>
+      <div class="col-12 col-sm-6 order-sm-2">
+        <h1 class="titulo">Gimlet Cocktail Club</h1>
+        <br />
         <p>
-          El curso de coctelería mas completo, dictado por profesionales de la
-          industria. Aprenderás desde las bases hasta las técnicas mas complejas
+          Bienvenido al Gimlet Cocktail Club Descubre el arte de la coctelería
+          de la mano de los verdaderos expertos en la industria. Nuestro curso
+          de coctelería es la experiencia más completa que encontrarás, diseñada
+          para llevar tus habilidades al siguiente nivel.
         </p>
-        <button type="button" class="btn btn-primary" @click="scrollToInfo">
+
+        <p>
+          Te sumergirás en un emocionante viaje desde las bases fundamentales
+          hasta las técnicas más complejas, guiado por profesionales apasionados
+          y experimentados. No importa si eres un principiante o un entusiasta
+          experimentado, nuestro curso se adapta a tu nivel y te lleva a dominar
+          el arte de crear cócteles únicos y exquisitos.
+        </p>
+        <p>
+          ¡Estás a un paso de convertirte en un gran bartender! ¿Estás listo
+          para comenzar?
+        </p>
+        <button type="button" class="btn btn-primary mt-4 mb-2" @click="scrollToInfo">
           Saber mas
         </button>
       </div>
+      <div class="col-12 col-sm-6 order-sm-1 ">
+        <img
+          src="https://www.liquor.com/thmb/9VTX3zAaYe4cA8CAHO9Cz8s2nrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__01__10072454__gimlet-720x720-recipe-a0d317f2ce7b4818a0fdbd2bbaaaf2c9.jpg"
+          alt=""
+          class="img-fluid d-none d-sm-block"
+          id="Image"
+        />
+      </div>
+      
     </div>
   </div>
   <!-- //!CTA -->
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="bg-secondary text-white my-5 py-4 card">
+        <div class="bg-secondary text-white mb-5 py-4 card">
           <div class="card-body">
             Conviértete en un profesional y entra en nuestra bolsa de trabajo.
           </div>
@@ -37,7 +54,7 @@
   <div class="container" id="Cards">
     <div class="row">
       <div class="col-md-4">
-        <div class="card">
+        <div class="card mb-4">
           <img
             src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
             width="350"
@@ -61,7 +78,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card mb-4">
           <img
             src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
             width="350"
@@ -112,7 +129,6 @@
     </div>
   </div>
   <!-- //!FOOTER -->
- 
 </template>
 
 <script>
@@ -144,4 +160,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.titulo {
+  font-weight: 900;
+}
+#image {
+  border-radius: 10%;
+}
+</style>
