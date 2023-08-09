@@ -112,15 +112,7 @@
     </div>
   </div>
   <!-- //!FOOTER -->
-  <footer class="footer mt-5 py-3 bg-dark text-white">
-    <div class="container">
-      <span>Contáctanos</span>
-      <hr />
-      <span>Seba Ortega 2613370889 - seba@gmail.com</span>
-      <p></p>
-      <span>JP Simic 2613370889 - jp@gmail.com</span>
-    </div>
-  </footer>
+ 
 </template>
 
 <script>

@@ -22,7 +22,9 @@
             <router-link class="nav-link" to="/clases">Programa</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/ubicacion">Ubicacion</router-link>
+            <router-link class="nav-link" to="/ubicacion"
+              >Ubicacion</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/nosotros">Nosotros</router-link>
@@ -31,7 +33,18 @@
       </div>
     </div>
   </nav>
+
   <router-view />
+
+  <footer class="footer mt-5 py-3 bg-dark text-white">
+    <div class="container">
+      <span>Contáctanos</span>
+      <hr />
+      <span>Seba Ortega 2613370889 - seba@gmail.com</span>
+      <p></p>
+      <span>JP Simic 2613370889 - jp@gmail.com</span>
+    </div>
+  </footer>
 </template>
 
 <style>
