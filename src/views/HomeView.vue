@@ -47,9 +47,10 @@
       <div class="col">
         <div class="bg-secondary text-white mb-5 py-4 card">
           <div class="card-body">
-            ¿Estás listo para dar el siguiente paso?
-            <br />
-            Conviértete en un profesional y entra en nuestra bolsa de trabajo .
+            ¿Listo para dar un paso hacia el éxito? Únete a nosotros y
+            transforma tu pasión en una carrera profesional. <br />Conviértete
+            en un experto en coctelería y accede a emocionantes oportunidades en
+            nuestra exclusiva bolsa de trabajo.
           </div>
         </div>
       </div>

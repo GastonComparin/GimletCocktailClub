@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <router-link class="navbar-brand" to="/">GCC</router-link>
+      <router-link class="navbar-brand" to="/">
+        <img src="./assets/icons8-cocktail-50.png" alt="">
+      </router-link>
       <button
         class="navbar-toggler"
         type="button"
