@@ -25,7 +25,10 @@
                 En esta primera clase empezaremos a introducirnos en la
                 cocteleria
               </p>
-              <router-link to="/clases/1" class="btn btn-primary"
+              <router-link
+                to="/clases/1"
+                class="btn btn-primary"
+                @click="scrollToTop"
                 >Clase 1</router-link
               >
             </div>
@@ -48,7 +51,10 @@
                   En esta clase vamos a comenzar a desarrollar producciones para
                   mejorar nuestros cócteles
                 </p>
-                <router-link to="/clases/2" class="btn btn-primary"
+                <router-link
+                  to="/clases/2"
+                  class="btn btn-primary"
+                  @click="scrollToTop"
                   >Clase 2</router-link
                 >
               </div>
@@ -170,5 +176,14 @@
 }
 </style>
 <script>
-import scrollToTop from "../App.vue";
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "auto",
+      });
+    },
+  },
+};
 </script>

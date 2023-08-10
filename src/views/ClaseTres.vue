@@ -19,6 +19,8 @@
         deleniti iste eius, totam modi. Commodi enim rerum numquam voluptatibus.
         Enim adipisci eius, labore ducimus asperiores ipsam corrupti dolorum
         doloremque, quis recusandae quibusdam cum! A.
+       
+     
       </p>
     </div>
   </div>
@@ -30,7 +32,7 @@
           <router-link
             to="/clases/2"
             class="btn btn-primary btn-md mt-3"
-            @click="scrollToTop"
+           
             >Clase anterior</router-link
           >
           <router-link to="/clases" class="btn btn-primary btn-md mt-3"
@@ -44,6 +46,4 @@
     </div>
   </div>
 </template>
-<script>
-import scrollToTop from "../App.vue";
-</script>
+
