@@ -71,7 +71,10 @@
                   En esta clase vamos a aprender la composición basica de los
                   cocteles, estructuras y formas
                 </p>
-                <router-link to="/clases/3" class="btn btn-primary"
+                <router-link
+                  to="/clases/3"
+                  class="btn btn-primary"
+                  @click="scrollToTop"
                   >Clase 3
                 </router-link>
               </div>
@@ -166,4 +169,6 @@
   background-color: rgba(0, 0, 0, 0.05);
 }
 </style>
-
+<script>
+import scrollToTop from "../App.vue";
+</script>

@@ -27,7 +27,10 @@
     <div class="row">
       <div class="col-md-12">
         <div class="d-flex justify-content-around">
-          <router-link to="/clases/2" class="btn btn-primary btn-md mt-3"
+          <router-link
+            to="/clases/2"
+            class="btn btn-primary btn-md mt-3"
+            @click="scrollToTop"
             >Clase anterior</router-link
           >
           <router-link to="/clases" class="btn btn-primary btn-md mt-3"
@@ -41,3 +44,6 @@
     </div>
   </div>
 </template>
+<script>
+import scrollToTop from "../App.vue";
+</script>

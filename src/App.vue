@@ -71,3 +71,15 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script>
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "auto",
+      });
+    },
+  },
+};
+</script>
