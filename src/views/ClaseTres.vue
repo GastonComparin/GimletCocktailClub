@@ -1,6 +1,6 @@
 <template>
   <div class="ClaseTres">
-    <h1>Clase N°3 - Fisionomía de los cocteles</h1>
+    <h1 class="mt-4">Clase N°3 - Fisionomía de los cocteles</h1>
     <h5>
       Aca se podria colocar un poco de informacion sobre lo que se va a ver en
       la clase

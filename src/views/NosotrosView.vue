@@ -60,6 +60,7 @@
   </div>
   <hr />
   <h4>Galeria de fotos</h4>
+
   <div id="carousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -106,15 +107,15 @@
 </template>
 <style>
 #carousel {
-  max-width: 700px; /* Ajusta el tamaño máximo del carrusel */
-  margin: 0 auto; /* Centra el carrusel en la página */
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .carousel-inner {
-  max-height: 500px; /* Ajusta el alto máximo del carrusel */
+  max-height: 500px;
 }
 
 .carousel-item img {
-  max-height: 500px; /* Ajusta el alto máximo de las imágenes */
+  max-height: 500px;
 }
 </style>

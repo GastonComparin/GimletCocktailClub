@@ -1,6 +1,6 @@
 <template>
   <div class="ClaseUno">
-    <h1>Clase N°1 - Introducción a la cocteleria</h1>
+    <h1 class="mt-4">Clase N°1 - Introducción a la cocteleria</h1>
     <h5>
       Aca se podria colocar un poco de informacion sobre lo que se va a ver en
       la clase
@@ -38,3 +38,4 @@
     </div>
   </div>
 </template>
+

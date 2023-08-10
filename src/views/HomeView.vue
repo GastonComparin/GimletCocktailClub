@@ -11,7 +11,6 @@
           de coctelería es la experiencia más completa que encontrarás, diseñada
           para llevar tus habilidades al siguiente nivel.
         </p>
-
         <p>
           Te sumergirás en un emocionante viaje desde las bases fundamentales
           hasta las técnicas más complejas, guiado por profesionales apasionados
@@ -23,6 +22,7 @@
           ¡Estás a un paso de convertirte en un gran bartender! ¿Estás listo
           para comenzar?
         </p>
+        <p>Este curso consta de 16 clases de 3 horas en las que abarcaremos todo el material expuesto en el programa</p>
         <button
           type="button"
           class="btn btn-primary mt-4 mb-2"

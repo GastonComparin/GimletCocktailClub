@@ -1,6 +1,6 @@
 <template>
   <div class="ClaseDos">
-    <h1>Clase N°2 - Elaboraciones y Producciones</h1>
+    <h1 class="mt-4">Clase N°2 - Elaboraciones y Producciones</h1>
     <h5>
       Aca se podria colocar un poco de informacion sobre lo que se va a ver en
       la clase
@@ -41,3 +41,19 @@
     </div>
   </div>
 </template>
+<style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: translateX(100%);
+}
+
+.slide-enter-to,
+.slide-leave {
+  transform: translateX(-100%);
+}
+</style>

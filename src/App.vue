@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
-        <img src="./assets/icons8-cocktail-50.png" alt="">
+        <img src="./assets/icons8-cocktail-50.png" alt="" />
       </router-link>
       <button
         class="navbar-toggler"
@@ -36,7 +36,7 @@
     </div>
   </nav>
 
-  <router-view />
+  <router-view> </router-view>
 
   <footer class="footer mt-5 py-3 bg-dark text-white">
     <div class="container">
