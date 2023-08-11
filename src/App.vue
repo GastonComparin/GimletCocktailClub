@@ -42,9 +42,10 @@
     <div class="container">
       <span>Contáctanos</span>
       <hr />
-      <span>Seba Ortega 2613370889 - seba@gmail.com</span>
-      <p></p>
-      <span>JP Simic 2613370889 - jp@gmail.com</span>
+      <span>Sebastian Ortega 2612420467 ||</span>
+      <span> Juan Pablo Simic 2615139495</span>
+      <br>
+      gimletcocktailclub@gmail.com
     </div>
   </footer>
 </template>

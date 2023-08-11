@@ -1,5 +1,5 @@
 <template>
-  <!-- //!Jumbotron -->
+  <!-- !Jumbotron -->
   <div class="container my-5">
     <div class="row">
       <div class="col-12 col-sm-6 order-sm-2">
@@ -22,7 +22,10 @@
           ¡Estás a un paso de convertirte en un gran bartender! ¿Estás listo
           para comenzar?
         </p>
-        <p>Este curso consta de 16 clases de 3 horas en las que abarcaremos todo el material expuesto en el programa</p>
+        <p>
+          Este curso consta de 16 clases de 3 horas en las que abarcaremos todo
+          el material expuesto en el programa
+        </p>
         <button
           type="button"
           class="btn btn-primary mt-4 mb-2"
@@ -41,7 +44,7 @@
       </div>
     </div>
   </div>
-  <!-- //!CTA -->
+  <!-- !CTA -->
   <div class="container">
     <div class="row">
       <div class="col">
@@ -56,7 +59,7 @@
       </div>
     </div>
   </div>
-  <!-- //!CARDS -->
+  <!-- !CARDS -->
   <div class="container" id="Cards">
     <div class="row">
       <div class="col-md-4">
@@ -134,7 +137,96 @@
       </div>
     </div>
   </div>
-  <!-- //!FOOTER -->
+  <!-- !FAQ -->
+  <hr />
+  <h3 class="mb-4">Preguntas Frecuentes</h3>
+  <div class="d-flex justify-content-center">
+    <div class="accordion col-10" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="false"
+            aria-controls="collapseOne"
+          >
+            ¿Que nos diferencia de otros cursos?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>
+              En Gimlet Cocktail Club, nuestra enseñanza se basa en la
+              experiencia práctica.</strong
+            >
+            A diferencia de otros cursos, impartimos nuestras clases en un
+            auténtico bar funcional. Esto te brinda la oportunidad de aplicar
+            tus conocimientos teóricos y prácticos en un entorno real desde el
+            primer día. Al graduarte, estarás preparado para enfrentar desafíos
+            reales con una sólida base de conocimientos y experiencia en el
+            funcionamiento de un bar..
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            ¿Qué sucede despues de graduarte?
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            Aquellos estudiantes que sobresalgan durante el curso tendrán la
+            emocionante oportunidad de
+            <strong>unirse a nuestro selecto grupo de trabajo.</strong> Este
+            equipo colabora en la coordinación de eventos para bares y barras
+            móviles, brindando a nuestros destacados alumnos la experiencia de
+            participar en proyectos reales y enriquecedores para la industria.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+           Otra pregunta..
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            alguna respuesta
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
