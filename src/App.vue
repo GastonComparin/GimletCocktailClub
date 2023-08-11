@@ -1,53 +1,57 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <router-link class="navbar-brand" to="/">
-        <img src="./assets/icons8-cocktail-50.png" alt="" />
-      </router-link>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/">Inicio</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/clases">Programa</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/ubicacion"
-              >Ubicacion</router-link
-            >
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/nosotros">Nosotros</router-link>
-          </li>
-        </ul>
+  <div class="containerppal">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <router-link class="navbar-brand" to="/">
+          <img src="./assets/icons8-cocktail-50.png" alt="" />
+        </router-link>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <router-link class="nav-link" to="/">Inicio</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/clases">Programa</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/ubicacion"
+                >Ubicacion</router-link
+              >
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/nosotros"
+                >Nosotros</router-link
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <router-view> </router-view>
+    <router-view> </router-view>
 
-  <footer class="footer mt-5 py-3 bg-dark text-white">
-    <div class="container">
-      <span>Contáctanos</span>
-      <hr />
-      <span>Sebastian Ortega 2612420467 ||</span>
-      <span> Juan Pablo Simic 2615139495</span>
-      <br>
-      gimletcocktailclub@gmail.com
-    </div>
-  </footer>
+    <footer class="footer mt-5 py-3 bg-dark text-white">
+      <div class="container">
+        <span>Contáctanos</span>
+        <hr />
+        <span>Sebastian Ortega 2612420467 ||</span>
+        <span> Juan Pablo Simic 2615139495</span>
+        <br />
+        gimletcocktailclub@gmail.com
+      </div>
+    </footer>
+  </div>
 </template>
 
 <style>
@@ -71,6 +75,13 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+.containerppal {
+  background-color: lightgray;
+  /* background-image: url("https://p4.wallpaperbetter.com/wallpaper/201/303/636/gradient-blue-simple-digital-art-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
 </style>
 <script>
 export default {

@@ -1,7 +1,8 @@
 <template>
   <div class="nosotros">
-    <div class="col-md-10 mx-auto mt-5">
-      <h1>Bienvenidos al Gimlet Cocktail Club</h1>
+    <div class="col-md-10 mx-auto mt-3">
+      <h1 style="font-weight: 900;">Bienvenidos al Gimlet Cocktail Club</h1>
+      <br>
       <hr />
       <p>
         En el Gimlet Cocktail Club, somos unos apasionados bartenders dedicados
@@ -58,51 +59,55 @@
       <p>Gimlet Cocktail Club</p>
     </div>
   </div>
-  <hr />
-  <h4>Galeria de fotos</h4>
 
-  <div id="carousel" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img
-          src="https://picsum.photos/id/237/700/500"
-          class="d-block w-100"
-          alt="..."
-        />
+  <hr />
+  <!-- !Por el momento la galeria de fotos no se va a mostrar -->
+  <div class="d-none">
+    <h4>Galeria de fotos</h4>
+
+    <div id="carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://picsum.photos/id/237/700/500"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://picsum.photos/id/238/700/500"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://picsum.photos/id/239/700/500"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
       </div>
-      <div class="carousel-item">
-        <img
-          src="https://picsum.photos/id/238/700/500"
-          class="d-block w-100"
-          alt="..."
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          src="https://picsum.photos/id/239/700/500"
-          class="d-block w-100"
-          alt="..."
-        />
-      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carousel"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carousel"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 </template>
 <style>

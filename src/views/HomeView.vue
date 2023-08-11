@@ -23,7 +23,7 @@
           para comenzar?
         </p>
         <p>
-          Este curso consta de 16 clases de 3 horas en las que abarcaremos todo
+          Este curso consta de 14 clases de 3 horas en las que abarcaremos todo
           el material expuesto en el programa
         </p>
         <button
@@ -40,25 +40,28 @@
           alt=""
           class="img-fluid d-none d-sm-block"
           id="Image"
+          style="border-radius: 10px;"
         />
       </div>
     </div>
   </div>
   <!-- !CTA -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="bg-secondary text-white mb-5 py-4 card">
-          <div class="card-body">
-            ¿Listo para dar un paso hacia el éxito? Únete a nosotros y
-            transforma tu pasión en una carrera profesional. <br />Conviértete
-            en un experto en coctelería y accede a emocionantes oportunidades en
-            nuestra exclusiva bolsa de trabajo.
+  
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="bg-secondary text-white mb-5 py-4 card">
+            <div class="card-body">
+              ¿Listo para dar un paso hacia el éxito? Únete a nosotros y
+              transforma tu pasión en una carrera profesional. <br />Conviértete
+              en un experto en coctelería y accede a emocionantes oportunidades
+              en nuestra exclusiva bolsa de trabajo.
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  
   <!-- !CARDS -->
   <div class="container" id="Cards">
     <div class="row">
@@ -212,7 +215,7 @@
             aria-expanded="false"
             aria-controls="collapseThree"
           >
-           Otra pregunta..
+            Otra pregunta..
           </button>
         </h2>
         <div
@@ -220,9 +223,7 @@
           class="accordion-collapse collapse"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
-            alguna respuesta
-          </div>
+          <div class="accordion-body">alguna respuesta</div>
         </div>
       </div>
     </div>
@@ -234,6 +235,11 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "HomeView",
+  data() {
+    return {
+      showSection: false,
+    };
+  },
   components: {
     HelloWorld,
   },

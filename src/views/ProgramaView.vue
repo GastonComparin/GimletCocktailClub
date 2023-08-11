@@ -1,19 +1,17 @@
 <template>
-  <div class="programa">
-    <h1>Nuestras Clases</h1>
+  <div class="programa mt-3">
+    <h1 style="font-weight: 900;">Programa de estudios</h1>
     <p>
       Aquí encontrarás toda la información sobre los temas que abordaremos en
       las siguientes clases
     </p>
-    <h5>
-      Aca tenemos botones en las tarjetas para ir a ver un detalle de las clases
-    </h5>
+    <hr>
     <div class="container">
       <div class="row">
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
             <img
-              src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
+              src="https://picsum.photos/id/1/350/400"
               width="350"
               height="400"
               class="card-img-top"
@@ -38,7 +36,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
+                src="https://picsum.photos/id/20/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -64,7 +62,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
+                src="https://picsum.photos/id/100/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -89,7 +87,7 @@
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
             <img
-              src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
+              src="https://picsum.photos/id/251/350/400"
               width="350"
               height="400"
               class="card-img-top"
@@ -114,7 +112,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
+                src="https://picsum.photos/id/412/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -140,7 +138,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
+                src="https://picsum.photos/id/18/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -165,7 +163,7 @@
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
             <img
-              src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
+              src="https://picsum.photos/id/91/350/400"
               width="350"
               height="400"
               class="card-img-top"
@@ -190,7 +188,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
+                src="https://picsum.photos/id/51/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -216,7 +214,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
+                src="https://picsum.photos/id/16/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -241,7 +239,7 @@
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
             <img
-              src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
+              src="https://picsum.photos/id/611/350/400"
               width="350"
               height="400"
               class="card-img-top"
@@ -266,7 +264,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
+                src="https://picsum.photos/id/581/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -292,7 +290,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
+                src="https://picsum.photos/id/125/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -317,7 +315,7 @@
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
             <img
-              src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
+              src="https://picsum.photos/id/211/350/400"
               width="350"
               height="400"
               class="card-img-top"
@@ -342,7 +340,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
+                src="https://picsum.photos/id/185/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -368,7 +366,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
+                src="https://picsum.photos/id/156/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -394,6 +392,7 @@
     </div>
   </div>
 </template>
+
 <style>
 .card-hover {
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
@@ -405,6 +404,7 @@
   background-color: rgba(0, 0, 0, 0.05);
 }
 </style>
+
 <script>
 export default {
   methods: {
