@@ -1,6 +1,6 @@
 <template>
   <div class="containerppal">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" style="background-color: #ededed">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
           <img src="./assets/icons8-cocktail-50.png" alt="" />
@@ -60,7 +60,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
 }
 
 nav {
@@ -76,12 +76,17 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 .containerppal {
-  background-color: lightgray;
-  /* background-image: url("https://p4.wallpaperbetter.com/wallpaper/201/303/636/gradient-blue-simple-digital-art-wallpaper-preview.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
+  background-color: #ededed;
 
+  .btn {
+    border-color: #8dbe3f;
+    background-color: #8dbe3f;
+  }
+  
+  .btn:hover {
+    background-color: #719833;
+  }
+}
 </style>
 <script>
 export default {

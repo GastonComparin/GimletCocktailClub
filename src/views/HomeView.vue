@@ -40,28 +40,28 @@
           alt=""
           class="img-fluid d-none d-sm-block"
           id="Image"
-          style="border-radius: 10px;"
+          style="border-radius: 10px"
         />
       </div>
     </div>
   </div>
   <!-- !CTA -->
-  
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="bg-secondary text-white mb-5 py-4 card">
-            <div class="card-body">
-              ¿Listo para dar un paso hacia el éxito? Únete a nosotros y
-              transforma tu pasión en una carrera profesional. <br />Conviértete
-              en un experto en coctelería y accede a emocionantes oportunidades
-              en nuestra exclusiva bolsa de trabajo.
-            </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="bg-secondary text-white mb-5 py-4 card">
+          <div class="card-body">
+            ¿Listo para dar un paso hacia el éxito? Únete a nosotros y
+            transforma tu pasión en una carrera profesional. <br />Conviértete
+            en un experto en coctelería y accede a emocionantes oportunidades en
+            nuestra exclusiva bolsa de trabajo.
           </div>
         </div>
       </div>
     </div>
-  
+  </div>
+
   <!-- !CARDS -->
   <div class="container" id="Cards">
     <div class="row">
@@ -144,7 +144,7 @@
   <hr />
   <h3 class="mb-4">Preguntas Frecuentes</h3>
   <div class="d-flex justify-content-center">
-    <div class="accordion col-10" id="accordionExample">
+    <div class="accordion col-10" id="accordionFAQ">
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button
@@ -161,7 +161,7 @@
         <div
           id="collapseOne"
           class="accordion-collapse collapse"
-          data-bs-parent="#accordionExample"
+          data-bs-parent="#accordionFAQ"
         >
           <div class="accordion-body">
             <strong>
@@ -193,7 +193,7 @@
         <div
           id="collapseTwo"
           class="accordion-collapse collapse"
-          data-bs-parent="#accordionExample"
+          data-bs-parent="#accordionFAQ"
         >
           <div class="accordion-body">
             Aquellos estudiantes que sobresalgan durante el curso tendrán la
@@ -221,7 +221,7 @@
         <div
           id="collapseThree"
           class="accordion-collapse collapse"
-          data-bs-parent="#accordionExample"
+          data-bs-parent="#accordionFAQ"
         >
           <div class="accordion-body">alguna respuesta</div>
         </div>
