@@ -6,6 +6,9 @@ import ubicacion from "../views/UbicacionView.vue";
 import ClaseUno from "../views/ClaseUno.vue";
 import ClaseDos from "../views/ClaseDos.vue";
 import ClaseTres from "../views/ClaseTres.vue";
+import ClaseCuatro from "../views/ClaseCuatro.vue";
+import ClaseCinco from "../views/ClaseCinco.vue";
+import ClaseSeis from "../views/ClaseSeis.vue";
 
 const routes = [
   {
@@ -42,6 +45,21 @@ const routes = [
     path: "/clases/3",
     name: "ClaseTres",
     component: ClaseTres,
+  },
+  {
+    path: "/clases/4",
+    name: "ClaseCuatro",
+    component: ClaseCuatro,
+  },
+  {
+    path: "/clases/5",
+    name: "ClaseCinco",
+    component: ClaseCinco,
+  },
+  {
+    path: "/clases/6",
+    name: "ClaseSeis",
+    component: ClaseSeis,
   },
 ];
 

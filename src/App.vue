@@ -34,6 +34,7 @@
                 >Nosotros</router-link
               >
             </li>
+            
           </ul>
         </div>
       </div>
@@ -65,6 +66,7 @@
 
 nav {
   padding: 30px;
+  border-bottom: 1px solid #8dbe3f;
 }
 
 nav a {
@@ -82,7 +84,7 @@ nav a.router-link-exact-active {
     border-color: #8dbe3f;
     background-color: #8dbe3f;
   }
-  
+
   .btn:hover {
     background-color: #719833;
   }

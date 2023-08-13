@@ -38,7 +38,7 @@
           <router-link to="/clases" class="btn btn-primary btn-md mt-3"
             >Ir al inicio</router-link
           >
-          <router-link to="/clases" class="btn btn-primary btn-md mt-3"
+          <router-link to="/clases/4" class="btn btn-primary btn-md mt-3"
             >Siguiente clase</router-link
           >
         </div>

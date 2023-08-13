@@ -5,7 +5,7 @@
       Aquí encontrarás toda la información sobre los temas que abordaremos en
       las siguientes clases
     </p>
-    <hr>
+    
     <div class="container">
       <div class="row">
         <div class="col-md-4 mt-4">

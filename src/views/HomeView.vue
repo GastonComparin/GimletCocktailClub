@@ -40,13 +40,12 @@
           alt=""
           class="img-fluid d-none d-sm-block"
           id="Image"
-          style="border-radius: 10px"
+          style="border-radius: 10px; border: 3px solid #8dbe3f"
         />
       </div>
     </div>
   </div>
   <!-- !CTA -->
-
   <div class="container">
     <div class="row">
       <div class="col">
@@ -66,7 +65,7 @@
   <div class="container" id="Cards">
     <div class="row">
       <div class="col-md-4">
-        <div class="card mb-4">
+        <div class="card card-hover mb-4">
           <img
             src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
             width="350"
@@ -76,10 +75,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">Programa</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p class="card-text"></p>
             <router-link
               to="/clases"
               class="btn btn-primary"
@@ -90,7 +86,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4">
+        <div class="card card-hover mb-4">
           <img
             src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
             width="350"
@@ -100,11 +96,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">Ubicación</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-
+            <p class="card-text"></p>
             <router-link
               to="/ubicacion"
               class="btn btn-primary"
@@ -115,7 +107,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card card-hover">
           <img
             src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
             width="350"
@@ -125,10 +117,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">Sobre nosotros</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p class="card-text"></p>
             <router-link
               to="/nosotros"
               class="btn btn-primary"
@@ -270,5 +259,13 @@ export default {
 }
 #image {
   border-radius: 10%;
+}
+.card-hover {
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 </style>

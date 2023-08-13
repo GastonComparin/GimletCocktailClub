@@ -2,8 +2,7 @@
   <div class="ubicacion mt-3">
     <h1 style="font-weight: 900">Charco Andino</h1>
     <p>
-      Nuestra casa para el dictado del curso será Charco Andino. El nuevo bar
-      inaugurado en Chacras Park, Lujan de Cuyo.
+      Nuestra casa para el dictado del curso será el bar ubicacdo en el complejo Chacras Park en Luján de Cuyo. 
     </p>
   </div>
   <hr />
@@ -14,4 +13,5 @@
   Doloribus quia inventore cumque molestiae ipsum ea eum eveniet possimus
   debitis, minus ab dolorum nemo iure esse soluta excepturi corrupti. Totam
   asperiores nihil soluta repellat quam similique.
+  
 </template>

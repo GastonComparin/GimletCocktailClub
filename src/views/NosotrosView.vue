@@ -1,9 +1,9 @@
 <template>
   <div class="nosotros">
     <div class="col-md-10 mx-auto mt-3">
-      <h1 style="font-weight: 900;">Bienvenidos al Gimlet Cocktail Club</h1>
-      <br>
-      <hr />
+      <h1 style="font-weight: 900">Bienvenidos al Gimlet Cocktail Club</h1>
+      <br />
+      
       <p>
         En el Gimlet Cocktail Club, somos unos apasionados bartenders dedicados
         a compartir nuestro amor y conocimiento por el arte de la coctelería.
@@ -63,7 +63,7 @@
   <hr />
   <!-- !Por el momento la galeria de fotos no se va a mostrar -->
   <div class="d-none">
-    <h4>Galeria de fotos</h4>
+    <hr />
 
     <div id="carousel" class="carousel slide">
       <div class="carousel-inner">
