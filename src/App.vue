@@ -78,7 +78,7 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 .containerppal {
-  background-color: #ededed;
+  background-color: lightgray;
 
   .btn {
     border-color: #8dbe3f;
