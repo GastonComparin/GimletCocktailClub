@@ -93,7 +93,7 @@
                 <h5 class="card-title">Vinos y Espumantes</h5>
 
                 <router-link
-                  to="/clases/1"
+                  to="/clases/4"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 4</router-link
@@ -116,7 +116,7 @@
                 <h5 class="card-title">Destilación</h5>
 
                 <router-link
-                  to="/clases/2"
+                  to="/clases/5"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 5</router-link
@@ -139,7 +139,7 @@
                 <h5 class="card-title">Vermouth y Aperitivos</h5>
 
                 <router-link
-                  to="/clases/3"
+                  to="/clases/6"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 6
@@ -165,7 +165,7 @@
                   cocteleria
                 </p>
                 <router-link
-                  to="/clases/1"
+                  to="/clases/7"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 7</router-link
@@ -191,7 +191,7 @@
                   mejorar nuestros cócteles
                 </p>
                 <router-link
-                  to="/clases/2"
+                  to="/clases/8"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 8</router-link
@@ -217,7 +217,7 @@
                   cocteles, estructuras y formas
                 </p>
                 <router-link
-                  to="/clases/3"
+                  to="/clases/9"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 9
@@ -243,7 +243,7 @@
                   cocteleria
                 </p>
                 <router-link
-                  to="/clases/1"
+                  to="/clases/10"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 10</router-link
@@ -269,7 +269,7 @@
                   mejorar nuestros cócteles
                 </p>
                 <router-link
-                  to="/clases/2"
+                  to="/clases/11"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 11</router-link
@@ -295,7 +295,7 @@
                   mejorar nuestros cócteles
                 </p>
                 <router-link
-                  to="/clases/2"
+                  to="/clases/12"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 14</router-link
@@ -321,7 +321,7 @@
                   cocteles, estructuras y formas
                 </p>
                 <router-link
-                  to="/clases/3"
+                  to="/clases/13"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 12
@@ -347,7 +347,7 @@
                   cocteleria
                 </p>
                 <router-link
-                  to="/clases/1"
+                  to="/clases/14"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Clase 13</router-link
@@ -356,7 +356,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
             <div class="card">
@@ -374,7 +373,7 @@
                   cocteles, estructuras y formas
                 </p>
                 <router-link
-                  to="/clases/3"
+                  to="/clases/tecnicas"
                   class="btn btn-primary"
                   @click="scrollToTop"
                   >Tecnicas

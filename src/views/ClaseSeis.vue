@@ -5,11 +5,13 @@
     <hr />
     <div class="d-flex justify-content-center">
       <div
-        class="col-md-10"
+        class="col-md-8" id="texto-clases"
         style="
           font-size: x-large;
           background-color: #ededed;
           border-radius: 15px;
+          padding: 1.5rem;
+          border: 3px solid #8dbe3f;
         "
       >
         <p>

@@ -104,6 +104,7 @@ nav a {
     font-weight: 500;
     color: red;
   }
+ 
 }
 </style>
 <script>
