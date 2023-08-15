@@ -4,7 +4,14 @@
 
     <hr />
     <div class="d-flex justify-content-center">
-      <div class="col-md-10" style="font-size: x-large">
+      <div
+        class="col-md-10"
+        style="
+          font-size: x-large;
+          background-color: #ededed;
+          border-radius: 15px;
+        "
+      >
         <p>
           En nuestra segunda clase, daremos un paso fundamental al adentrarnos
           en el mundo de las herramientas del bar. Descubrirás una guía completa

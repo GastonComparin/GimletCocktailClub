@@ -4,7 +4,14 @@
 
     <hr />
     <div class="d-flex justify-content-center">
-      <div class="col-md-10" style="font-size: x-large">
+      <div
+        class="col-md-10"
+        style="
+          font-size: x-large;
+          background-color: #ededed;
+          border-radius: 15px;
+        "
+      >
         <p>
           En nuestra emocionante sexta clase, te adentrarás en el fascinante
           mundo de los vermuts y aperitivos. Exploraremos el universo de sabores

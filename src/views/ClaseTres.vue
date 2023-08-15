@@ -3,7 +3,14 @@
     <h1 class="mt-4">Clase N°3 - Clasificación de los Cócteles y Cerveza</h1>
     <hr />
     <div class="d-flex justify-content-center">
-      <div class="col-md-10" style="font-size: x-large">
+      <div
+        class="col-md-10"
+        style="
+          font-size: x-large;
+          background-color: #ededed;
+          border-radius: 15px;
+        "
+      >
         <p>
           En la tercer clase, te embarcarás en un viaje por las 'Familias de
           Cócteles' y la apasionante historia detrás de la cerveza. Exploraremos

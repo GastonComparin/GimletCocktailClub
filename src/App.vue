@@ -24,16 +24,21 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/clases">Programa</router-link>
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/ubicacion"
+            <!-- <li class="nav-item">
+              <router-link class="nav-link" to="/" @click="scrollToUbi"
                 >Ubicacion</router-link
               >
-            </li>
+            </li> -->
             <li class="nav-item">
               <router-link class="nav-link" to="/nosotros"
-                >Nosotros</router-link
+                >Conócenos</router-link
               >
             </li>
+            <!-- <li class="nav-item">
+              <router-link class="nav-link" to="/" @click="scrollToFAQ"
+                >Preguntas frecuentes</router-link
+              >
+            </li> -->
           </ul>
         </div>
       </div>
@@ -97,7 +102,8 @@ nav a {
   }
   p {
     font-weight: 500;
-  color: red;  }
+    color: red;
+  }
 }
 </style>
 <script>
@@ -108,6 +114,24 @@ export default {
         top: 0,
         behavior: "auto",
       });
+    },
+    scrollToUbi() {
+      const ubi = document.querySelector("#ubi");
+      if (ubi) {
+        ubi.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    },
+    scrollToFAQ() {
+      const FAQ = document.querySelector("#FAQ");
+      if (FAQ) {
+        FAQ.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
     },
   },
 };

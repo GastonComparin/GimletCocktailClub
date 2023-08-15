@@ -23,8 +23,11 @@
           para comenzar?
         </p>
         <p>
-          Este curso consta de 14 clases teórico-prácticas de 3 horas en las que
-          aprenderas todas las bases para ser un bartender de éxito.
+          <strong
+            >Este curso consta de 14 clases teórico-prácticas de 3 horas en las
+            que aprenderas todas las bases para ser un bartender de
+            éxito.</strong
+          >
         </p>
         <button
           type="button"
@@ -40,7 +43,7 @@
           alt=""
           class="img-fluid d-none d-sm-block"
           id="Image"
-          style="border-radius: 10px; border: 3px solid #8dbe3f"
+          style="border-radius: 10px"
         />
       </div>
     </div>
@@ -63,7 +66,7 @@
 
   <!-- !CARDS -->
   <div class="container" id="Cards">
-    <div class="row">
+    <div class="row d-flex justify-content-center">
       <div class="col-md-4">
         <div class="card card-hover mb-4">
           <div class="card">
@@ -82,29 +85,6 @@
                 class="btn btn-primary"
                 @click="scrollToTop"
                 >Ver Programa</router-link
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-hover mb-4">
-          <div class="card">
-            <img
-              src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
-              width="350"
-              height="400"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Ubicación</h5>
-              <p class="card-text"></p>
-              <router-link
-                to="/ubicacion"
-                class="btn btn-primary"
-                @click="scrollToTop"
-                >Como llegar</router-link
               >
             </div>
           </div>
@@ -134,10 +114,24 @@
         </div>
       </div>
     </div>
+    <div class="card mt-3" id="ubi">
+      <div class="card-body">
+        <h5 class="card-title">Ubicacion</h5>
+        <p class="card-text">
+          Nuestra casa para el dictado del curso será el bar ubicado en el
+          complejo Chacras Park en Luján de Cuyo.
+        </p>
+      </div>
+      <img
+        src="https://i.postimg.cc/jjkpgnMB/Charcofront.jpg"
+        class="card-img-bottom"
+        alt="..."
+      />
+    </div>
   </div>
   <!-- !FAQ -->
   <hr />
-  <h3 class="mb-4">Preguntas Frecuentes</h3>
+  <h3 class="mb-4" id="FAQ">Preguntas Frecuentes</h3>
   <div class="d-flex justify-content-center">
     <div class="accordion col-10" id="accordionFAQ">
       <div class="accordion-item">

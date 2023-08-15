@@ -4,7 +4,14 @@
 
     <hr />
     <div class="d-flex justify-content-center">
-      <div class="col-md-10" style="font-size: x-large">
+      <div
+        class="col-md-10"
+        style="
+          font-size: x-large;
+          background-color: #ededed;
+          border-radius: 15px;
+        "
+      >
         <p>
           Para la cuarta clase, te adentrarás en el apasionante mundo de los
           vinos y espumantes. Exploraremos desde la elaboración de estas

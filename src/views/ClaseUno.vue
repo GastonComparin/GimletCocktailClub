@@ -3,7 +3,14 @@
     <h1 class="mt-4">Clase N°1 - Introducción a la coctelería</h1>
     <hr />
     <div class="d-flex justify-content-center">
-      <div class="col-md-10" style="font-size: x-large">
+      <div
+        class="col-md-10"
+        style="
+          font-size: x-large;
+          background-color: #ededed;
+          border-radius: 15px;
+        "
+      >
         <p>
           En nuestra emocionante primera clase, te adentrarás en los orígenes y
           la evolución de la coctelería a lo largo de la historia. Exploraremos

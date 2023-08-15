@@ -1,6 +1,6 @@
 <template>
   <div class="programa mt-3">
-    <h1 style="font-weight: 900">Programa de estudios</h1>
+    <h1 style="font-weight: 900">Nuestras Clases</h1>
     <p>
       Aquí encontrarás toda la información sobre los temas que abordaremos en
       las siguientes clases

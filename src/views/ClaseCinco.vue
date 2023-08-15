@@ -4,7 +4,14 @@
 
     <hr />
     <div class="d-flex justify-content-center">
-      <div class="col-md-10" style="font-size: x-large;">
+      <div
+        class="col-md-10"
+        style="
+          font-size: x-large;
+          background-color: #ededed;
+          border-radius: 15px;
+        "
+      >
         <p>
           En nuestra quinta clase, daremos un paso hacia la maestría en
           destilación. Exploraremos los fascinantes procesos detrás de la
