@@ -1,9 +1,9 @@
 <template>
   <div class="containerppal">
-    <nav class="navbar navbar-expand-lg" style="background-color: #ededed">
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
-          <img src="./assets/icons8-cocktail-50.png" alt="" />
+          <img src="./assets/Gimlet-logo-removebg-preview(2).png" alt="" />
         </router-link>
         <button
           class="navbar-toggler"
@@ -34,7 +34,6 @@
                 >Nosotros</router-link
               >
             </li>
-            
           </ul>
         </div>
       </div>
@@ -66,7 +65,7 @@
 
 nav {
   padding: 30px;
-  border-bottom: 1px solid #8dbe3f;
+  border-bottom: 1px #8dbe3f solid;
 }
 
 nav a {
@@ -74,11 +73,10 @@ nav a {
   color: #2c3e50;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 .containerppal {
-  background-color: lightgray;
+  background-image: url(./assets/BG-IMG-BW.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 
   .btn {
     border-color: #8dbe3f;
@@ -88,6 +86,18 @@ nav a.router-link-exact-active {
   .btn:hover {
     background-color: #719833;
   }
+  .card-hover {
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  p {
+    font-weight: 500;
+  color: red;  }
 }
 </style>
 <script>

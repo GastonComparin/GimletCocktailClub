@@ -1,26 +1,25 @@
 <template>
   <div class="ClaseDos">
-    <h1 class="mt-4">Clase N°2 - Elaboraciones y Producciones</h1>
-    <h5>
-      Aca se podria colocar un poco de informacion sobre lo que se va a ver en
-      la clase
-    </h5>
+    <h1 class="mt-4">Clase N°2 - Manejo de Herramientas</h1>
+
     <hr />
     <div class="d-flex justify-content-center">
-      <p class="col-md-10">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorum
-        eos architecto corporis praesentium, id natus itaque, ut tempore quo
-        impedit! Esse neque ad ipsum magni repellat vitae iste? Nesciunt
-        architecto exercitationem repellat rem excepturi aliquid minus esse,
-        facere hic soluta consequuntur eligendi porro odit sit natus deserunt, a
-        quisquam aspernatur? Omnis nam quisquam fugit dignissimos consequuntur
-        exercitationem culpa enim rem accusantium dolor sapiente soluta sed
-        nobis maxime, possimus deserunt id! Numquam libero ipsum recusandae
-        deleniti iste eius, totam modi. Commodi enim rerum numquam voluptatibus.
-        Enim adipisci eius, labore ducimus asperiores ipsam corrupti dolorum
-        doloremque, quis recusandae quibusdam cum! A.
-     
-      </p>
+      <div class="col-md-10" style="font-size: x-large">
+        <p>
+          En nuestra segunda clase, daremos un paso fundamental al adentrarnos
+          en el mundo de las herramientas del bar. Descubrirás una guía completa
+          que abarca desde los conceptos básicos hasta los detalles más
+          avanzados sobre cada utensilio esencial. Este 'ABC de las
+          Herramientas' te proporcionará la base sólida que necesitas para
+          trabajar con confianza en cualquier entorno.
+        </p>
+        <p>
+          Además, profundizaremos aún más en la técnica de mise en place,
+          asegurándonos de que comprendas su importancia y la apliques de manera
+          experta. Esta preparación meticulosa será clave en la creación de
+          cocteles excepcionales y en la agilidad del servicio.
+        </p>
+      </div>
     </div>
   </div>
 
@@ -28,13 +27,19 @@
     <div class="row">
       <div class="col-md-12">
         <div class="d-flex justify-content-around">
-          <router-link to="/clases/1" class="btn btn-primary btn-md mt-3"
+          <router-link
+            to="/clases/1"
+            class="btn btn-primary btn-md mt-3"
+            @click="scrollToTop"
             >Clase anterior</router-link
           >
           <router-link to="/clases" class="btn btn-primary btn-md mt-3"
             >Ir al inicio</router-link
           >
-          <router-link to="/clases/3" class="btn btn-primary btn-md mt-3"
+          <router-link
+            to="/clases/3"
+            class="btn btn-primary btn-md mt-3"
+            @click="scrollToTop"
             >Siguiente clase</router-link
           >
         </div>
@@ -58,3 +63,15 @@
   transform: translateX(-100%);
 }
 </style>
+<script>
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "auto",
+      });
+    },
+  },
+};
+</script>

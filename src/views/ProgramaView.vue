@@ -1,34 +1,33 @@
 <template>
   <div class="programa mt-3">
-    <h1 style="font-weight: 900;">Programa de estudios</h1>
+    <h1 style="font-weight: 900">Programa de estudios</h1>
     <p>
       Aquí encontrarás toda la información sobre los temas que abordaremos en
       las siguientes clases
     </p>
-    
+
     <div class="container">
       <div class="row">
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
-            <img
-              src="https://picsum.photos/id/1/350/400"
-              width="350"
-              height="400"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Introduccion a la coctelería</h5>
-              <p class="card-text">
-                En esta primera clase empezaremos a introducirnos en la
-                cocteleria
-              </p>
-              <router-link
-                to="/clases/1"
-                class="btn btn-primary"
-                @click="scrollToTop"
-                >Clase 1</router-link
-              >
+            <div class="card">
+              <img
+                src="https://picsum.photos/id/1/350/400"
+                width="350"
+                height="400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Introduccion a la coctelería</h5>
+
+                <router-link
+                  to="/clases/1"
+                  class="btn btn-primary"
+                  @click="scrollToTop"
+                  >Clase 1</router-link
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -43,11 +42,8 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Elaboraciones y producciones</h5>
-                <p class="card-text">
-                  En esta clase vamos a comenzar a desarrollar producciones para
-                  mejorar nuestros cócteles
-                </p>
+                <h5 class="card-title">Manejo de Herramientas</h5>
+
                 <router-link
                   to="/clases/2"
                   class="btn btn-primary"
@@ -69,11 +65,10 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Fisionomía de los cocteles</h5>
-                <p class="card-text">
-                  En esta clase vamos a aprender la composición basica de los
-                  cocteles, estructuras y formas
-                </p>
+                <h5 class="card-title">
+                  Clasificación de los Cócteles y Cerveza
+                </h5>
+
                 <router-link
                   to="/clases/3"
                   class="btn btn-primary"
@@ -86,25 +81,24 @@
         </div>
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
-            <img
-              src="https://picsum.photos/id/251/350/400"
-              width="350"
-              height="400"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Introduccion a la coctelería</h5>
-              <p class="card-text">
-                En esta primera clase empezaremos a introducirnos en la
-                cocteleria
-              </p>
-              <router-link
-                to="/clases/1"
-                class="btn btn-primary"
-                @click="scrollToTop"
-                >Clase 4</router-link
-              >
+            <div class="card">
+              <img
+                src="https://picsum.photos/id/251/350/400"
+                width="350"
+                height="400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vinos y Espumantes</h5>
+
+                <router-link
+                  to="/clases/1"
+                  class="btn btn-primary"
+                  @click="scrollToTop"
+                  >Clase 4</router-link
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -119,11 +113,8 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Elaboraciones y producciones</h5>
-                <p class="card-text">
-                  En esta clase vamos a comenzar a desarrollar producciones para
-                  mejorar nuestros cócteles
-                </p>
+                <h5 class="card-title">Destilación</h5>
+
                 <router-link
                   to="/clases/2"
                   class="btn btn-primary"
@@ -145,11 +136,8 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Fisionomía de los cocteles</h5>
-                <p class="card-text">
-                  En esta clase vamos a aprender la composición basica de los
-                  cocteles, estructuras y formas
-                </p>
+                <h5 class="card-title">Vermouth y Aperitivos</h5>
+
                 <router-link
                   to="/clases/3"
                   class="btn btn-primary"
@@ -162,25 +150,27 @@
         </div>
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
-            <img
-              src="https://picsum.photos/id/91/350/400"
-              width="350"
-              height="400"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Introduccion a la coctelería</h5>
-              <p class="card-text">
-                En esta primera clase empezaremos a introducirnos en la
-                cocteleria
-              </p>
-              <router-link
-                to="/clases/1"
-                class="btn btn-primary"
-                @click="scrollToTop"
-                >Clase 7</router-link
-              >
+            <div class="card">
+              <img
+                src="https://picsum.photos/id/91/350/400"
+                width="350"
+                height="400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vodka</h5>
+                <p class="card-text">
+                  En esta primera clase empezaremos a introducirnos en la
+                  cocteleria
+                </p>
+                <router-link
+                  to="/clases/1"
+                  class="btn btn-primary"
+                  @click="scrollToTop"
+                  >Clase 7</router-link
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -195,7 +185,7 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Elaboraciones y producciones</h5>
+                <h5 class="card-title">Gin y Ginebra</h5>
                 <p class="card-text">
                   En esta clase vamos a comenzar a desarrollar producciones para
                   mejorar nuestros cócteles
@@ -221,7 +211,7 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Fisionomía de los cocteles</h5>
+                <h5 class="card-title">Whisky</h5>
                 <p class="card-text">
                   En esta clase vamos a aprender la composición basica de los
                   cocteles, estructuras y formas
@@ -238,25 +228,27 @@
         </div>
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
-            <img
-              src="https://picsum.photos/id/611/350/400"
-              width="350"
-              height="400"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Introduccion a la coctelería</h5>
-              <p class="card-text">
-                En esta primera clase empezaremos a introducirnos en la
-                cocteleria
-              </p>
-              <router-link
-                to="/clases/1"
-                class="btn btn-primary"
-                @click="scrollToTop"
-                >Clase 10</router-link
-              >
+            <div class="card">
+              <img
+                src="https://picsum.photos/id/611/350/400"
+                width="350"
+                height="400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Producciones y costos</h5>
+                <p class="card-text">
+                  En esta primera clase empezaremos a introducirnos en la
+                  cocteleria
+                </p>
+                <router-link
+                  to="/clases/1"
+                  class="btn btn-primary"
+                  @click="scrollToTop"
+                  >Clase 10</router-link
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -271,7 +263,7 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Elaboraciones y producciones</h5>
+                <h5 class="card-title">Ron</h5>
                 <p class="card-text">
                   En esta clase vamos a comenzar a desarrollar producciones para
                   mejorar nuestros cócteles
@@ -290,6 +282,32 @@
           <div class="card card-hover">
             <div class="card">
               <img
+                src="https://picsum.photos/id/185/350/400"
+                width="350"
+                height="400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pisco, Tequila y Mezcal</h5>
+                <p class="card-text">
+                  En esta clase vamos a comenzar a desarrollar producciones para
+                  mejorar nuestros cócteles
+                </p>
+                <router-link
+                  to="/clases/2"
+                  class="btn btn-primary"
+                  @click="scrollToTop"
+                  >Clase 14</router-link
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="card card-hover">
+            <div class="card">
+              <img
                 src="https://picsum.photos/id/125/350/400"
                 width="350"
                 height="400"
@@ -297,7 +315,7 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Fisionomía de los cocteles</h5>
+                <h5 class="card-title">Calidad y Estandarización</h5>
                 <p class="card-text">
                   En esta clase vamos a aprender la composición basica de los
                   cocteles, estructuras y formas
@@ -314,54 +332,31 @@
         </div>
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
-            <img
-              src="https://picsum.photos/id/211/350/400"
-              width="350"
-              height="400"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Introduccion a la coctelería</h5>
-              <p class="card-text">
-                En esta primera clase empezaremos a introducirnos en la
-                cocteleria
-              </p>
-              <router-link
-                to="/clases/1"
-                class="btn btn-primary"
-                @click="scrollToTop"
-                >Clase 13</router-link
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-4">
-          <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/185/350/400"
+                src="https://picsum.photos/id/211/350/400"
                 width="350"
                 height="400"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Elaboraciones y producciones</h5>
+                <h5 class="card-title">Exámen Practico</h5>
                 <p class="card-text">
-                  En esta clase vamos a comenzar a desarrollar producciones para
-                  mejorar nuestros cócteles
+                  En esta primera clase empezaremos a introducirnos en la
+                  cocteleria
                 </p>
                 <router-link
-                  to="/clases/2"
+                  to="/clases/1"
                   class="btn btn-primary"
                   @click="scrollToTop"
-                  >Clase 14</router-link
+                  >Clase 13</router-link
                 >
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-md-4 mt-4">
           <div class="card card-hover">
             <div class="card">
@@ -393,17 +388,7 @@
   </div>
 </template>
 
-<style>
-.card-hover {
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-}
-
-.card-hover:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-  background-color: rgba(0, 0, 0, 0.05);
-}
-</style>
+<style></style>
 
 <script>
 export default {

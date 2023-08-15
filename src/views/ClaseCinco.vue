@@ -1,50 +1,69 @@
 <template>
-    <div class="ClaseTres">
-      <h1 class="mt-4">Clase N°5 - ???</h1>
-      <h5>
-        Aca se podria colocar un poco de informacion sobre lo que se va a ver en
-        la clase
-      </h5>
-      <hr />
-      <div class="d-flex justify-content-center">
-        <p class="col-md-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorum
-          eos architecto corporis praesentium, id natus itaque, ut tempore quo
-          impedit! Esse neque ad ipsum magni repellat vitae iste? Nesciunt
-          architecto exercitationem repellat rem excepturi aliquid minus esse,
-          facere hic soluta consequuntur eligendi porro odit sit natus deserunt, a
-          quisquam aspernatur? Omnis nam quisquam fugit dignissimos consequuntur
-          exercitationem culpa enim rem accusantium dolor sapiente soluta sed
-          nobis maxime, possimus deserunt id! Numquam libero ipsum recusandae
-          deleniti iste eius, totam modi. Commodi enim rerum numquam voluptatibus.
-          Enim adipisci eius, labore ducimus asperiores ipsam corrupti dolorum
-          doloremque, quis recusandae quibusdam cum! A.
-         
-       
+  <div class="ClaseTres">
+    <h1 class="mt-4">Clase N°5 - Destilación</h1>
+
+    <hr />
+    <div class="d-flex justify-content-center">
+      <div class="col-md-10" style="font-size: x-large;">
+        <p>
+          En nuestra quinta clase, daremos un paso hacia la maestría en
+          destilación. Exploraremos los fascinantes procesos detrás de la
+          creación de bebidas destiladas, desde los métodos hasta los tipos de
+          alambiques utilizados. Te adentrarás en el mundo de los 'Master
+          Distillers' y entenderás su papel fundamental en la creación de
+          bebidas excepcionales.
+        </p>
+        <p>
+          Sumérgete en los detalles de la destilación mientras exploramos cómo
+          se lleva a cabo y cómo diferentes alambiques influyen en los sabores y
+          aromas de las bebidas. Aprenderás sobre la diversidad de bebidas
+          destiladas y cómo los destiladores expertos perfeccionan cada gota.
+        </p>
+        <p>
+          Nuestra clase incluirá una emocionante cata de bebidas destiladas,
+          permitiéndote experimentar de primera mano la variedad de perfiles de
+          sabor y apreciar la complejidad de cada destilado. Profundizaremos en
+          el mundo del coñac y el brandy, explorando su rica historia y
+          características únicas.
         </p>
       </div>
     </div>
-  
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="d-flex justify-content-around">
-            <router-link
-              to="/clases/4"
-              class="btn btn-primary btn-md mt-3"
-             
-              >Clase anterior</router-link
-            >
-            <router-link to="/clases" class="btn btn-primary btn-md mt-3"
-              >Ir al inicio</router-link
-            >
-            <router-link to="/clases/6" class="btn btn-primary btn-md mt-3"
-              >Siguiente clase</router-link
-            >
-          </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex justify-content-around">
+          <router-link
+            to="/clases/4"
+            class="btn btn-primary btn-md mt-3"
+            @click="scrollToTop"
+            >Clase anterior</router-link
+          >
+          <router-link to="/clases" class="btn btn-primary btn-md mt-3"
+            >Ir al inicio</router-link
+          >
+          <router-link
+            to="/clases/6"
+            class="btn btn-primary btn-md mt-3"
+            @click="scrollToTop"
+            >Siguiente clase</router-link
+          >
         </div>
       </div>
     </div>
-  </template>
-  
-  
+  </div>
+</template>
+
+<script>
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "auto",
+      });
+    },
+  },
+};
+</script>

@@ -1,27 +1,24 @@
 <template>
   <div class="ClaseTres">
-    <h1 class="mt-4">Clase N°3 - Fisionomía de los cocteles</h1>
-    <h5>
-      Aca se podria colocar un poco de informacion sobre lo que se va a ver en
-      la clase
-    </h5>
+    <h1 class="mt-4">Clase N°3 - Clasificación de los Cócteles y Cerveza</h1>
     <hr />
     <div class="d-flex justify-content-center">
-      <p class="col-md-10">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorum
-        eos architecto corporis praesentium, id natus itaque, ut tempore quo
-        impedit! Esse neque ad ipsum magni repellat vitae iste? Nesciunt
-        architecto exercitationem repellat rem excepturi aliquid minus esse,
-        facere hic soluta consequuntur eligendi porro odit sit natus deserunt, a
-        quisquam aspernatur? Omnis nam quisquam fugit dignissimos consequuntur
-        exercitationem culpa enim rem accusantium dolor sapiente soluta sed
-        nobis maxime, possimus deserunt id! Numquam libero ipsum recusandae
-        deleniti iste eius, totam modi. Commodi enim rerum numquam voluptatibus.
-        Enim adipisci eius, labore ducimus asperiores ipsam corrupti dolorum
-        doloremque, quis recusandae quibusdam cum! A.
-       
-     
-      </p>
+      <div class="col-md-10" style="font-size: x-large">
+        <p>
+          En la tercer clase, te embarcarás en un viaje por las 'Familias de
+          Cócteles' y la apasionante historia detrás de la cerveza. Exploraremos
+          cómo los cócteles se agrupan en familias según sus características y
+          componentes clave, lo que te permitirá comprender mejor las relaciones
+          entre diferentes tipos de bebidas y perfeccionar tus habilidades de
+          creación
+        </p>
+        <p>
+          Sumérgete en el apasionante mundo de la cerveza mientras exploramos su
+          historia, su proceso de producción y los aspectos que la hacen única.
+          Aprenderás sobre las diversas variedades de cerveza, sus matices de
+          sabor y cómo elegir la cerveza adecuada.
+        </p>
+      </div>
     </div>
   </div>
 
@@ -32,13 +29,16 @@
           <router-link
             to="/clases/2"
             class="btn btn-primary btn-md mt-3"
-           
+            @click="scrollToTop"
             >Clase anterior</router-link
           >
           <router-link to="/clases" class="btn btn-primary btn-md mt-3"
             >Ir al inicio</router-link
           >
-          <router-link to="/clases/4" class="btn btn-primary btn-md mt-3"
+          <router-link
+            to="/clases/4"
+            class="btn btn-primary btn-md mt-3"
+            @click="scrollToTop"
             >Siguiente clase</router-link
           >
         </div>
@@ -46,4 +46,15 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "auto",
+      });
+    },
+  },
+};
+</script>

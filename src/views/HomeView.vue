@@ -23,8 +23,8 @@
           para comenzar?
         </p>
         <p>
-          Este curso consta de 14 clases de 3 horas en las que abarcaremos todo
-          el material expuesto en el programa
+          Este curso consta de 14 clases teórico-prácticas de 3 horas en las que
+          aprenderas todas las bases para ser un bartender de éxito.
         </p>
         <button
           type="button"
@@ -66,64 +66,70 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card card-hover mb-4">
-          <img
-            src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
-            width="350"
-            height="400"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Programa</h5>
-            <p class="card-text"></p>
-            <router-link
-              to="/clases"
-              class="btn btn-primary"
-              @click="scrollToTop"
-              >Ver Programa</router-link
-            >
+          <div class="card">
+            <img
+              src="https://estaticos-cdn.prensaiberica.es/clip/aaa0061b-1908-4dc2-a5fb-c59dd7387923_16-9-discover-aspect-ratio_default_0.jpg"
+              width="350"
+              height="400"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Programa</h5>
+              <p class="card-text"></p>
+              <router-link
+                to="/clases"
+                class="btn btn-primary"
+                @click="scrollToTop"
+                >Ver Programa</router-link
+              >
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card card-hover mb-4">
-          <img
-            src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
-            width="350"
-            height="400"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Ubicación</h5>
-            <p class="card-text"></p>
-            <router-link
-              to="/ubicacion"
-              class="btn btn-primary"
-              @click="scrollToTop"
-              >Como llegar</router-link
-            >
+          <div class="card">
+            <img
+              src="https://inmendoza.com/wp-content/uploads/2023/06/charco-bar-01.jpg"
+              width="350"
+              height="400"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ubicación</h5>
+              <p class="card-text"></p>
+              <router-link
+                to="/ubicacion"
+                class="btn btn-primary"
+                @click="scrollToTop"
+                >Como llegar</router-link
+              >
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card card-hover">
-          <img
-            src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
-            width="350"
-            height="400"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Sobre nosotros</h5>
-            <p class="card-text"></p>
-            <router-link
-              to="/nosotros"
-              class="btn btn-primary"
-              @click="scrollToTop"
-              >Conócenos
-            </router-link>
+          <div class="card">
+            <img
+              src="https://i0.wp.com/www.escuelacocteleria.es/wp-content/uploads/2023/04/¿que-es-la-cocteleria-molecular-scaled.jpeg?fit=2560%2C1709&ssl=1"
+              width="350"
+              height="400"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sobre nosotros</h5>
+              <p class="card-text"></p>
+              <router-link
+                to="/nosotros"
+                class="btn btn-primary"
+                @click="scrollToTop"
+                >Conócenos
+              </router-link>
+            </div>
           </div>
         </div>
       </div>
@@ -160,9 +166,9 @@
             A diferencia de otros cursos, impartimos nuestras clases en un
             auténtico bar funcional. Esto te brinda la oportunidad de aplicar
             tus conocimientos teóricos y prácticos en un entorno real desde el
-            primer día. Al graduarte, estarás preparado para enfrentar desafíos
-            reales con una sólida base de conocimientos y experiencia en el
-            funcionamiento de un bar..
+            primer día. Al graduarte, estarás preparado para
+            <strong>enfrentar desafíos reales</strong> con una sólida base de
+            conocimientos y experiencia en el funcionamiento de un bar.
           </div>
         </div>
       </div>
@@ -190,7 +196,8 @@
             <strong>unirse a nuestro selecto grupo de trabajo.</strong> Este
             equipo colabora en la coordinación de eventos para bares y barras
             móviles, brindando a nuestros destacados alumnos la experiencia de
-            participar en proyectos reales y enriquecedores para la industria.
+            participar en <strong>proyectos reales</strong> y enriquecedores
+            para la industria.
           </div>
         </div>
       </div>
@@ -204,7 +211,7 @@
             aria-expanded="false"
             aria-controls="collapseThree"
           >
-            Otra pregunta..
+            ¿Cuáles son los métodos de pago?
           </button>
         </h2>
         <div
@@ -212,7 +219,46 @@
           class="accordion-collapse collapse"
           data-bs-parent="#accordionFAQ"
         >
-          <div class="accordion-body">alguna respuesta</div>
+          <div class="accordion-body">
+            El curso puede abonarse en cómodas cuotas, ya sea en
+            <strong>efectivo</strong> o a través de
+            <strong>transferencia bancaria</strong>. Además del costo del curso,
+            el interesado deberá abonar el monto de
+            <strong>inscripción correspondiente</strong>. Si decides realizar el
+            pago total del curso de una vez, te beneficiarás con un
+            <strong>descuento especial</strong> del 15%.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseFour"
+          >
+            ¿Cómo son nuestras clases?
+          </button>
+        </h2>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFAQ"
+        >
+          <div class="accordion-body">
+            Adoptamos una modalidad <strong>teórico-práctica </strong>que te
+            sumergirá en el apasionante mundo de la coctelería. En cada clase,
+            exploraremos los temas con fundamentos históricos para que
+            comprendas el contexto de cada
+            <strong>destilado, cóctel y técnica.</strong>
+            Diariamente realizaremos <strong>degustaciones y prácticas</strong>,
+            pero no te preocupes por traer ningún material adicional, ya que
+            proveeremos todo lo necesario para las clases. Tu enfoque estará en
+            <strong>aprender y disfrutar.</strong>
+          </div>
         </div>
       </div>
     </div>
@@ -259,13 +305,5 @@ export default {
 }
 #image {
   border-radius: 10%;
-}
-.card-hover {
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-}
-.card-hover:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-  background-color: rgba(0, 0, 0, 0.05);
 }
 </style>

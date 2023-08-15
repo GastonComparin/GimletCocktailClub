@@ -3,7 +3,7 @@
     <div class="col-md-10 mx-auto mt-3">
       <h1 style="font-weight: 900">Bienvenidos al Gimlet Cocktail Club</h1>
       <br />
-      
+
       <p>
         En el Gimlet Cocktail Club, somos unos apasionados bartenders dedicados
         a compartir nuestro amor y conocimiento por el arte de la coctelería.
@@ -60,6 +60,48 @@
     </div>
   </div>
 
+  <hr />
+  <h5>Conocé al equipo</h5>
+  <br />
+  <div style="display: flex; justify-content: space-around">
+    
+    <div class="card card-hover" style="width: 18rem">
+      <img
+        src="https://picsum.photos/id/147/350/400"
+        class="card-img-top"
+        alt="..."
+        height="450"
+      />
+      <div class="card-body">
+        <p class="card-text">Sebastian Ortega</p>
+        Head Bartender Charco
+      </div>
+    </div>
+    <div class="card card-hover" style="width: 18rem">
+      <img
+        src="https://picsum.photos/id/183/350/400"
+        class="card-img-top"
+        alt="..."
+        height="450"
+      />
+      <div class="card-body">
+        <p class="card-text">Juan Pablo Simic</p>
+        Head Bartender Charco
+      </div>
+    </div>
+    <div class="card card-hover" style="width: 18rem">
+      <img
+        src="https://picsum.photos/id/18/350/400"
+        class="card-img-top"
+        alt="..."
+        height="450"
+      />
+      <div class="card-body">
+        <p class="card-text">Alejandro Oldra</p>
+        Community Manager
+      </div>
+    </div>
+  </div>
   <hr />
   <!-- !Por el momento la galeria de fotos no se va a mostrar -->
   <div class="d-none">
