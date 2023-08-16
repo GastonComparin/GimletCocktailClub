@@ -1,11 +1,12 @@
 <template>
   <div class="ClaseTres">
-    <h1 class="mt-4">Clase N°6 - Vermouth y Aperitivos</h1>
+    <h1 class="tituloClases mt-4">Clase N°6 - Vermouth y Aperitivos</h1>
 
     <hr />
     <div class="d-flex justify-content-center">
       <div
-        class="col-md-8" id="texto-clases"
+        class="col-md-8"
+        id="texto-clases"
         style="
           font-size: x-large;
           background-color: #ededed;

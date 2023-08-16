@@ -1,6 +1,6 @@
 <template>
   <div class="ClaseTres">
-    <h1 class="mt-4">Clase N°4 - Vinos y Espumantes</h1>
+    <h1 class="tituloClases mt-4">Clase N°4 - Vinos y Espumantes</h1>
 
     <hr />
     <div class="d-flex justify-content-center">

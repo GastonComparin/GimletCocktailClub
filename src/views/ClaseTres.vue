@@ -1,6 +1,8 @@
 <template>
   <div class="ClaseTres">
-    <h1 class="mt-4">Clase N°3 - Clasificación de los Cócteles y Cerveza</h1>
+    <h1 class="tituloClases mt-4">
+      Clase N°3 - Clasificación de los Cócteles y Cerveza
+    </h1>
     <hr />
     <div class="d-flex justify-content-center">
       <div

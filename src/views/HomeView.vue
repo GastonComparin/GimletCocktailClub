@@ -3,32 +3,34 @@
   <div class="container my-5">
     <div class="row">
       <div class="col-12 col-sm-6 order-sm-2">
-        <h1 class="titulo">Gimlet Cocktail Club</h1>
-        <br />
-        <p>
-          Bienvenido al Gimlet Cocktail Club Descubre el arte de la coctelería
-          de la mano de los verdaderos expertos en la industria. Nuestro curso
-          de coctelería es la experiencia más completa que encontrarás, diseñada
-          para llevar tus habilidades al siguiente nivel.
-        </p>
-        <p>
-          Te sumergirás en un emocionante viaje desde las bases fundamentales
-          hasta las técnicas más complejas, guiado por profesionales apasionados
-          y experimentados. No importa si eres un principiante o un entusiasta
-          experimentado, nuestro curso se adapta a tu nivel y te lleva a dominar
-          el arte de crear cócteles únicos y exquisitos.
-        </p>
-        <p>
-          ¡Estás a un paso de convertirte en un gran bartender! ¿Estás listo
-          para comenzar?
-        </p>
-        <p>
-          <strong
-            >Este curso consta de 14 clases teórico-prácticas de 3 horas en las
-            que aprenderas todas las bases para ser un bartender de
-            éxito.</strong
-          >
-        </p>
+        <div style="text-align: left">
+          <h1 class="titulo">Gimlet Cocktail Club</h1>
+          <br />
+          <p>
+            Bienvenido al Gimlet Cocktail Club Descubre el arte de la coctelería
+            de la mano de los verdaderos expertos en la industria. Nuestro curso
+            de coctelería es la experiencia más completa que encontrarás,
+            diseñada para llevar tus habilidades al siguiente nivel.
+          </p>
+          <p>
+            Te sumergirás en un emocionante viaje desde las bases fundamentales
+            hasta las técnicas más complejas, guiado por profesionales
+            apasionados y experimentados. No importa si eres un principiante o
+            un entusiasta experimentado, nuestro curso se adapta a tu nivel y te
+            lleva a dominar el arte de crear cócteles únicos y exquisitos.
+          </p>
+          <p>
+            ¡Estás a un paso de convertirte en un gran bartender! ¿Estás listo
+            para comenzar?
+          </p>
+          <p>
+            <strong
+              >Este curso consta de 14 clases teórico-prácticas de 3 horas en
+              las que aprenderas todas las bases para ser un bartender de
+              éxito.</strong
+            >
+          </p>
+        </div>
         <button
           type="button"
           class="btn btn-primary mt-4 mb-2"
@@ -117,7 +119,7 @@
     <div class="card mt-3" id="ubi">
       <div class="card-body">
         <h5 class="card-title">Ubicacion</h5>
-        <p class="card-text">
+        <p class="card-text" style="font-weight: 600;">
           Nuestra casa para el dictado del curso será el bar ubicado en el
           complejo Chacras Park en Luján de Cuyo.
         </p>
@@ -131,7 +133,7 @@
   </div>
   <!-- !FAQ -->
   <hr />
-  <h3 class="mb-4" id="FAQ">Preguntas Frecuentes</h3>
+  <h3 class="mb-4" id="FAQ" style="font-weight: 700;">Preguntas Frecuentes</h3>
   <div class="d-flex justify-content-center">
     <div class="accordion col-10" id="accordionFAQ">
       <div class="accordion-item">
@@ -295,7 +297,8 @@ export default {
 
 <style scoped>
 .titulo {
-  font-weight: 900;
+  font-weight: bold;
+  
 }
 #image {
   border-radius: 10%;

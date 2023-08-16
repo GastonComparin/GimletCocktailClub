@@ -1,7 +1,7 @@
 <template>
   <div class="nosotros">
     <div class="col-md-10 mx-auto mt-3">
-      <h1 style="font-weight: 900">Bienvenidos al Gimlet Cocktail Club</h1>
+      <h1 style="font-weight: bolder">Bienvenidos al Gimlet Cocktail Club</h1>
       <br />
       <div
         style="
@@ -29,7 +29,11 @@
           dentro.
         </p>
 
-        <p><span class="highlight">¿Qué nos hace especiales?</span></p>
+        <p>
+          <span class="highlight" style="font-weight: 600"
+            >¿Qué nos hace especiales?</span
+          >
+        </p>
         <ul>
           <li>
             <strong>Enfoque Educativo:</strong> Creemos en el poder de la
@@ -65,13 +69,13 @@
         </p>
 
         <p><em>¡Salud y cócteles extraordinarios!</em></p>
-        <p>Gimlet Cocktail Club</p>
+        <p class="highlight">Gimlet Cocktail Club</p>
       </div>
     </div>
   </div>
 
   <hr />
-  <h5>Conocé al equipo</h5>
+  <h5 style="font-weight: 600">Conocé al equipo</h5>
   <br />
 
   <div class="d-flex justify-content-center">
@@ -79,7 +83,9 @@
       <div class="col-md-4">
         <div class="card mt-3">
           <div class="card-body">
-            <h5 class="card-title">Sebastian Ortega</h5>
+            <h5 class="card-title" style="font-weight: 600">
+              Sebastian Ortega
+            </h5>
             <p class="card-text">Head Bartender Charco</p>
           </div>
           <img
@@ -92,7 +98,9 @@
       <div class="col-md-4">
         <div class="card mt-3">
           <div class="card-body">
-            <h5 class="card-title">Juan Pablo Simic</h5>
+            <h5 class="card-title" style="font-weight: 600">
+              Juan Pablo Simic
+            </h5>
             <p class="card-text">Head Bartender Charco</p>
           </div>
           <img
@@ -105,7 +113,7 @@
       <div class="col-md-4">
         <div class="card mt-3">
           <div class="card-body">
-            <h5 class="card-title">Alejandro Oldra</h5>
+            <h5 class="card-title" style="font-weight: 600">Alejandro Oldra</h5>
             <p class="card-text">Community Manager</p>
           </div>
           <img
@@ -117,45 +125,7 @@
       </div>
     </div>
   </div>
-  <!-- <div style="display: flex; justify-content: space-around">
-    <div class="card card-hover" style="width: 18rem">
-      <img
-        src="https://picsum.photos/id/147/350/400"
-        class="card-img-top"
-        alt="..."
-        height="450"
-      />
-      <div class="card-body">
-        <p class="card-text">Sebastian Ortega</p>
-        Head Bartender Charco
-      </div>
-    </div>
-    <div class="card card-hover" style="width: 18rem">
-      <img
-        src="https://picsum.photos/id/183/350/400"
-        class="card-img-top"
-        alt="..."
-        height="450"
-      />
-      <div class="card-body">
-        <p class="card-text">Juan Pablo Simic</p>
-        Head Bartender Charco
-      </div>
-    </div>
-    <div class="card card-hover" style="width: 18rem">
-      <img
-        src="https://picsum.photos/id/18/350/400"
-        class="card-img-top"
-        alt="..."
-        height="450"
-      />
-      <div class="card-body">
-        <p class="card-text">Alejandro Oldra</p>
-        Community Manager
-      </div>
-    </div>
-  </div>
-  <hr /> -->
+
   <!-- !Por el momento la galeria de fotos no se va a mostrar -->
   <div class="d-none">
     <hr />

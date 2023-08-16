@@ -1,6 +1,6 @@
 <template>
   <div class="ClaseUno">
-    <h1 class="mt-4">Clase N°1 - Introducción a la coctelería</h1>
+    <h1 class=" tituloClases mt-4">Clase N°1 - Introducción a la coctelería</h1>
     <hr />
     <div class="d-flex justify-content-center">
       <div

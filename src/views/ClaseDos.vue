@@ -1,6 +1,6 @@
 <template>
   <div class="ClaseDos">
-    <h1 class="mt-4">Clase N°2 - Manejo de Herramientas</h1>
+    <h1 class="tituloClases mt-4">Clase N°2 - Manejo de Herramientas</h1>
 
     <hr />
     <div class="d-flex justify-content-center">

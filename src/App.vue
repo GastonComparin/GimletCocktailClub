@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
-          <img src="./assets/Gimlet-logo-removebg-preview(2).png" alt="" />
+          <img src="./assets/logocopa.png" alt="" width="70" />
         </router-link>
         <button
           class="navbar-toggler"
@@ -24,21 +24,12 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/clases">Programa</router-link>
             </li>
-            <!-- <li class="nav-item">
-              <router-link class="nav-link" to="/" @click="scrollToUbi"
-                >Ubicacion</router-link
-              >
-            </li> -->
+
             <li class="nav-item">
               <router-link class="nav-link" to="/nosotros"
                 >Conócenos</router-link
               >
             </li>
-            <!-- <li class="nav-item">
-              <router-link class="nav-link" to="/" @click="scrollToFAQ"
-                >Preguntas frecuentes</router-link
-              >
-            </li> -->
           </ul>
         </div>
       </div>
@@ -58,10 +49,10 @@
     </footer>
   </div>
 </template>
-
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -82,14 +73,14 @@ nav a {
   background-image: url(./assets/BG-IMG-BW.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
   .btn {
-    border-color: #8dbe3f !important;
-    background-color: #8dbe3f !important;
+    border-color: #4f9e1d;
+    background-color: #4f9e1d;
   }
 
   .btn:hover {
-    background-color: #719833;
+    background-color: #03490c;
+    border-color: #03490c;
   }
   .card-hover {
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
@@ -100,11 +91,12 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     background-color: rgba(0, 0, 0, 0.05);
   }
-  p {
-    font-weight: 500;
-    color: red;
+  .card-title {
+    font-weight: 600;
   }
- 
+  .tituloClases {
+    font-weight: 900;
+  }
 }
 </style>
 <script>
