@@ -6,7 +6,7 @@
         <div style="text-align: left">
           <h1 class="titulo">Gimlet Cocktail Club</h1>
           <br />
-          <p style="color: white;">
+          <p>
             Bienvenido al Gimlet Cocktail Club Descubre el arte de la coctelería
             de la mano de los verdaderos expertos en la industria. Nuestro curso
             de coctelería es la experiencia más completa que encontrarás,
