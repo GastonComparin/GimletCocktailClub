@@ -84,8 +84,8 @@ nav a {
   background-repeat: no-repeat;
 
   .btn {
-    border-color: #8dbe3f;
-    background-color: #8dbe3f;
+    border-color: #8dbe3f !important;
+    background-color: #8dbe3f !important;
   }
 
   .btn:hover {
