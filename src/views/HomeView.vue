@@ -6,7 +6,7 @@
         <div style="text-align: left">
           <h1 class="titulo">Gimlet Cocktail Club</h1>
           <br />
-          <p>
+          <p style="color: white;">
             Bienvenido al Gimlet Cocktail Club Descubre el arte de la coctelería
             de la mano de los verdaderos expertos en la industria. Nuestro curso
             de coctelería es la experiencia más completa que encontrarás,
@@ -118,7 +118,7 @@
     </div>
     <div class="card mt-3" id="ubi">
       <div class="card-body">
-        <h5 class="card-title">Ubicacion</h5>
+        <h5 class="card-title">Ubicación</h5>
         <p class="card-text" style="font-weight: 600;">
           Nuestra casa para el dictado del curso será el bar ubicado en el
           complejo Chacras Park en Luján de Cuyo.

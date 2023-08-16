@@ -22,11 +22,7 @@
           específicos, descubriendo sus características distintivas y cómo
           elegir el vino adecuado para diferentes propósitos.
         </p>
-        <p>
-          Profundizaremos en el concepto de añejamiento y su influencia en la
-          evolución del vino, permitiéndote comprender cómo el tiempo puede
-          transformar sus sabores y aromas.
-        </p>
+
         <p>
           Además, exploraremos cómo los espumantes añaden una dimensión especial
           a la coctelería. Te adentrarás en la diversidad de espumantes y

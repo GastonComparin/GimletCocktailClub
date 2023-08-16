@@ -3,7 +3,7 @@
     <div class="col-md-10 mx-auto mt-3">
       <h1 style="font-weight: bolder">Bienvenidos al Gimlet Cocktail Club</h1>
       <br />
-      <div class="contenedorclase">
+      <div class="contenedorinfo">
         <p>
           En el Gimlet Cocktail Club, somos unos apasionados bartenders
           dedicados a compartir nuestro amor y conocimiento por el arte de la
@@ -67,7 +67,7 @@
   </div>
 
   <hr />
-  <h5 style="font-weight: 900; font-size: xx-large; color: white">
+  <h5 style="font-weight: 900; font-size: xx-large;">
     Conocé al equipo
   </h5>
   <br />

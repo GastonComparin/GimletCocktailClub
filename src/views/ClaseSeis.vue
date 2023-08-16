@@ -48,7 +48,7 @@
             >Ir al inicio</router-link
           >
           <router-link
-            to="/clases"
+            to="/clases/7"
             class="btn btn-primary btn-md mt-3"
             @click="scrollToTop"
             >Siguiente clase</router-link
