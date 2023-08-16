@@ -4,17 +4,7 @@
 
     <hr />
     <div class="d-flex justify-content-center">
-      <div
-        class="col-md-8"
-        id="texto-clases"
-        style="
-          font-size: x-large;
-          background-color: #ededed;
-          border-radius: 15px;
-          padding: 1.5rem;
-          border: 3px solid #8dbe3f;
-        "
-      >
+      <div class="col-md-8 contenedorclase">
         <p>
           En nuestra emocionante sexta clase, te adentrarás en el fascinante
           mundo de los vermuts y aperitivos. Exploraremos el universo de sabores

@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import programa from "../views/ProgramaView.vue";
 import nosotros from "../views/NosotrosView.vue";
-import ubicacion from "../views/UbicacionView.vue";
 import ClaseUno from "../views/ClaseUno.vue";
 import ClaseDos from "../views/ClaseDos.vue";
 import ClaseTres from "../views/ClaseTres.vue";
@@ -25,11 +24,6 @@ const routes = [
     path: "/nosotros",
     name: "nosotros",
     component: nosotros,
-  },
-  {
-    path: "/ubicacion",
-    name: "ubicacion",
-    component: ubicacion,
   },
   {
     path: "/clases/1",

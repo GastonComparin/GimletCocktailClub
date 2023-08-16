@@ -61,7 +61,7 @@
 
 nav {
   padding: 30px;
-  border-bottom: 1px #8dbe3f solid;
+  border-bottom: 1px #4f9e1d solid;
 }
 
 nav a {
@@ -76,6 +76,7 @@ nav a {
   .btn {
     border-color: #4f9e1d;
     background-color: #4f9e1d;
+    font-weight: 600;
   }
 
   .btn:hover {
@@ -96,6 +97,13 @@ nav a {
   }
   .tituloClases {
     font-weight: 900;
+  }
+  .contenedorclase {
+    font-weight: 400;
+    background-color: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 3px solid #4f9e1d;
   }
 }
 </style>
