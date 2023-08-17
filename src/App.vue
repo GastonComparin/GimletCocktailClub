@@ -104,7 +104,7 @@ nav a {
     border-radius: 15px;
     padding: 1.5rem;
     border: 3px solid #4f9e1d;
-    height: 350px;
+    
   }
   .contenedorinfo {
     font-weight: 400;
