@@ -57,7 +57,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/100/350/400"
+                src="../assets/Beer1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -82,7 +82,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/251/350/400"
+                src="../assets/Wine1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -105,7 +105,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/412/350/400"
+                src="../assets/Destilation1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -128,7 +128,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/18/350/400"
+                src="../assets/Vermuth1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -151,7 +151,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/91/350/400"
+                src="../assets/Vodka1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -174,7 +174,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/51/350/400"
+                src="../assets/gin1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -197,7 +197,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/16/350/400"
+                src="../assets/whisky1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
@@ -243,7 +243,7 @@
           <div class="card card-hover">
             <div class="card">
               <img
-                src="https://picsum.photos/id/581/350/400"
+                src="../assets/Rum1.webp"
                 width="350"
                 height="400"
                 class="card-img-top"
