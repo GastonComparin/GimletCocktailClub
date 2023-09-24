@@ -36,7 +36,6 @@
     </nav>
 
     <router-view> </router-view>
-
     <footer class="footer mt-5 py-3 bg-dark text-white">
       <div class="container">
         <span>Contáctanos</span>
@@ -103,16 +102,12 @@ nav a {
     background-color: white;
     border-radius: 15px;
     padding: 1.5rem;
-    border: 3px solid #4f9e1d;
-    
   }
   .contenedorinfo {
     font-weight: 400;
     background-color: white;
     border-radius: 15px;
     padding: 1.5rem;
-    border: 3px solid #4f9e1d;
-    
   }
 }
 </style>

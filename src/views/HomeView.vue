@@ -119,7 +119,7 @@
     <div class="card mt-3" id="ubi">
       <div class="card-body">
         <h5 class="card-title">Ubicación</h5>
-        <p class="card-text" style="font-weight: 600;">
+        <p class="card-text" style="font-weight: 600">
           Nuestra casa para el dictado del curso será el bar ubicado en el
           complejo Chacras Park en Luján de Cuyo.
         </p>
@@ -133,7 +133,7 @@
   </div>
   <!-- !FAQ -->
   <hr />
-  <h3 class="mb-4" id="FAQ" style="font-weight: 700;">Preguntas Frecuentes</h3>
+  <h3 class="mb-4" id="FAQ" style="font-weight: 700">Preguntas Frecuentes</h3>
   <div class="d-flex justify-content-center">
     <div class="accordion col-10" id="accordionFAQ">
       <div class="accordion-item">
@@ -262,17 +262,12 @@
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "HomeView",
   data() {
     return {
       showSection: false,
     };
-  },
-  components: {
-    HelloWorld,
   },
 
   methods: {
@@ -298,7 +293,6 @@ export default {
 <style scoped>
 .titulo {
   font-weight: bold;
-  
 }
 #image {
   border-radius: 10%;
